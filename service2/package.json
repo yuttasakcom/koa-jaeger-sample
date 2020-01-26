@@ -1,0 +1,41 @@
+{
+  "name": "koa-jaeger-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "env-cmd nodemon src/index --exec babel-node",
+    "build": "",
+    "start": "",
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuttasakcom/koa-jaeger-sample.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuttasakcom/koa-jaeger-sample/issues"
+  },
+  "homepage": "https://github.com/yuttasakcom/koa-jaeger-sample#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "http-proxy-middleware": "^0.20.0",
+    "jaeger-client": "^3.17.1",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-connect": "^2.0.1",
+    "koa-router": "^8.0.6",
+    "koa2-connect": "^1.0.2",
+    "opentracing": "^0.14.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/node": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "env-cmd": "^10.0.1",
+    "nodemon": "^2.0.2"
+  }
+}
