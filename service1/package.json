@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/yuttasakcom/koa-jaeger-sample#readme",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "axios-opentracing": "^0.1.3",
     "dotenv": "^8.2.0",
     "http-proxy-middleware": "^0.20.0",
